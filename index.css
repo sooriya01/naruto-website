@@ -1,0 +1,37 @@
+#naruto{
+    display:block;
+    margin:auto;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+.dark{
+
+    background:black;
+    color:white;
+
+}
+
+.dark table,
+.dark td,
+.dark th{
+
+    color:white;
+    border:1px solid white;
+
+}
+
+button{
+
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
